@@ -89,7 +89,7 @@ stages:
       vmImage: 'ubuntu-18.04'
     environment: dev
     variables:
-    - group: Release
+    - group: Space Game - web - Multistage
     strategy:
       runOnce:
         deploy:
